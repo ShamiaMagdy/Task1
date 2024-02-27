@@ -87,5 +87,20 @@ if($a>=1 && $b>=1 && $k>=1 && $a<=1018 && $b<=1018 && $k<=1018)
 }
 echo "<br>";
 
+//problem 7:
+$x=2;
+$y=3;
+if($x-$y==-1 || $x-$y==1)
+{
+    echo "Yes" . "<br>";
+}   
+else echo "No" . "<br>";
 
+//problem 8:
+$value="39";
+if($value[0]%$value[1]==0 || $value[1]%$value[0]==0)
+{
+    echo "Lucky" . "<br>";
+}
+else echo "No" . "<br>";
 ?>
